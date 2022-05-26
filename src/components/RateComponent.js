@@ -267,7 +267,7 @@ class RateComponent extends HTMLElement {
         <div class="rate__modal-wrapper">
           <h2 class="rate__title">Your opinion matters to us</h2>
           <form action="" class="rate__form">
-            <span>How was your experience with us?</span>
+            <span>${this.getAttribute('message')}</span>
 
             <div class="rate__wrapper">
               <label for="rate-1" class="star__wrapper">
