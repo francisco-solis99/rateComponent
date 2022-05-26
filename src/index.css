@@ -1,0 +1,14 @@
+:root {
+  --color-primary: hsl(204deg 38% 97%);
+  --color-secundary-white: hsl(222deg 42% 94%);
+  --color-secundary-yellow: hsl(36deg 100% 76%);
+  --color-secundary-mold: hsl(254deg 21% 84%);
+  --color-secundary-purple: hsl(251deg 60% 61%);
+  --color-secundary-blue: hsl(242deg 65% 59%);
+}
+
+body {
+  background-color: var(--color-secundary-white);
+  min-height: 100vh;
+  font-family: Roboto, sans-serif;
+}
